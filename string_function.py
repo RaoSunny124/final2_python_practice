@@ -34,3 +34,14 @@ li.pop()
 print(li)
 my_string = "".join(li)
 print(my_string)
+
+
+
+# year = int(input())
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#          if year % 600 == 0:
+#             print("leap year")
+#         else:
+#             print("not leap year")
