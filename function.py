@@ -96,16 +96,3 @@ def reverse_string():
     print(reverse)
 
 reverse_string()
-
-
-# user_input()
-
-
-# def reverse_string():
-#     s = input("Enter a string to reverse: ")
-#     reversed_s = s[::-1]
-#     print("Reversed string:", reversed_s)
-
-# # Example usage
-# reverse_string()
-
