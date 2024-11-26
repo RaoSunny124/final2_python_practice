@@ -157,9 +157,136 @@ name = "Hassan"
 
 
 #OOP
-#inheritance
+# inheritance
+# class Grand_pa():
+#     def G_guide(self):
+#         print('G_papa is guide.')
+#     def G_care(self):
+#         print('G_papa is caring.')     
+# class Father():
+#     def guide(self):
+#         print('Father is guiding.')
+#     def care(self):
+#         print('Father is caring.')
+
+# class Mother(Father):
+#     def cook(self):
+#         print('Mother is cooking.')
+#     def protect(self):
+#         print('Mother is protecting.')        
+
+
+# class Children(Mother):
+#     def __init__ (self , name , age , height):
+#         self.name = name
+#         self.age = age
+#         self.height = height
+#     def eat(self , meal):
+#         print(f'Child is eating {meal}.')   
+#     def play(self):
+#         print('Child is playing.')       
+
+# # class Children2(Mother):
+# #     def __init__ (self , name , age , height):
+# #         self.name = name
+# #         self.age = age
+# #         self.height = height
+# #     def eat2(self , meal):
+# #         print(f'Child2 is eating {meal}.')   
+# #     def play2(self):
+# #         print('Child2 is plying.')
+
+
+# c1 = Children('Hassan' , 19 , 5.8)
+# print(c1.name)
+# print(c1.age)
+# print(c1.height)
+# c1.eat('baby food')
+# c1.play()
+# c1.care()
+# c1.guide()
+# c1.protect()
+# c1.cook()
+# c1.G_care()
+# c1.G_guide()
+
+# print()
+
+# c2 = Children(age= 18 , height=5.6 , name= 'Ali')
+# print(c2.name)
+# print(c2.age)
+# print(c2.height)
+# c2.eat('potato')
+# c2.play()
+# c2.care()
+# c2.guide()
+# c2.protect()
+# c2.cook()
+# c2.G_care()
+# c2.G_guide()
+
+
 #Encapsulation
+
+# class Human():
+#     def __init__ (self , name , age , height):
+#         self.__name = name
+#         self.__age = age
+#         self.__height = height
+#     def eat(self , meal):
+#         print(f'{self.__name} is eating {meal}.')   
+#     def sleep(self):
+#         print(f'{self.__name} is sleeping.')
+#     # def get(self):
+#     #     return self.__name , self.__age , self.__height    
+
+# H1 = Human('Mirha' , 15 , 5.2)
+
+# # print(H1.__name)
+# # print(H1.__age)
+# # print(H1.__height) 
+# H1.eat('Pulao')
+# H1.sleep()       
+# # print(H1.get())
+
+
+
 #polymorphism
+
+# class Cal():
+#     def add(self , *a):
+#         return sum(a)
+
+
+# c1 = Cal()
+# print(c1.add(2 ,4))
+
+
+
+# class Cal():
+#     def add(self , a , b):
+#         return a+b       
+#     def add(self , a ,b ,c):
+#         return a+b+c    
+
+
+
+# A1 = Cal()
+# print(A1.add(2 , 2 , 4 ))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Abstraction
 
 

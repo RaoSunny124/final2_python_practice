@@ -114,4 +114,4 @@ while count < 5:
     print(f'Your score is now {score}.')        
 # # print(f'Computer number is : {computer_num}')
 
-class
+# class
