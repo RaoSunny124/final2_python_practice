@@ -122,3 +122,14 @@
 # C2.walk('Kity')
 # C2.sleep('Kity')
 
+
+# user_input = input('\033[34mEnter your name:\033[0m')   # make text blue....
+# print(user_input)
+
+
+# user_input = input('\033[1;3mEnter your name:\033[0m')   # make text bold and italics....
+# print(user_input)
+
+# \033[34m text  \033[0m
+# For bold and italics:
+# \033[1;3m  text  \033[0m
